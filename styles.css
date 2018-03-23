@@ -1,0 +1,28 @@
+body{
+	background-color:lightblue;
+}
+
+img{
+	width: 100px;
+	height: 100px;
+
+}
+
+#pictures{
+display: inline-block;
+border:none;
+  
+
+  transition: 1s;
+  background: linear-gradient(90deg, rgba(255,255,255, 0)50%, rgba(255,255,255,0.7)100%);
+
+
+
+}
+
+.card hover #pictures {
+  transform: rotate(0);
+  left: 560px;
+  top: -445px;
+}
+
